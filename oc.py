@@ -7,8 +7,8 @@ import datetime
 
 global target, appID, apiKey
 target = 'https://api.octranspo1.com/v1.2/GetNextTripsForStopAllRoutes'
-appID = 'b9c6bbeb'
-apiKey = '1fd963a4605c8c195c52b31066bdc879'
+appID = 'xxxxxxxx' #Replace with your app ID given by oc transpo
+apiKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'   #Replace with apiKey from oc transpo
 x = 0
 
 def get_interest():
@@ -41,4 +41,4 @@ def pull_times(stopNo):
 
 
 if __name__ == '__main__':
-        get_interest()
+        get_interest()
